@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Table</title>
+</head>
+
+<body>
+
+    <div class="form">
+        <label for="firstname">First Name : </label>
+        <input class="input" type="text" id="firstName" placeholder="Shankar">
+        <label for="lastname">Last Name : </label>
+        <input class="input" type="text" id="lastName" placeholder="Mylsamy">
+        <label for="address">Address : </label>
+        <input class="input" type="text" id="address" placeholder="No 8C 1st Street">
+        <label for="pincode">Pin Code : </label>
+        <input class="input" type="number" id="pincode" placeholder="606202">
+        <label for="gender">Gender : </label>
+        <input class="input" type="text" id="gender" placeholder="Single">
+        <label>Choice of Foods : </label>
+        <br><br>
+        <input type="checkbox" name="choice" value="pizza" id="choice">
+        <label for="pizza">Pizza</label>
+        <input type="checkbox" name="choice" value="burger" id="choice">
+        <label for="burger">Burger</label>
+        <input type="checkbox" name="choice" value="pasta" id="choice">
+        <label for="pasta">Pasta</label>
+        <input type="checkbox" name="choice" value="biriyani" id="choice">
+        <label for="biriyani">Biriyani</label>
+        <input type="checkbox" name="choice" value="friedrice" id="choice">
+        <label for="friedrice">Fried Rice</label>
+        <br><br>
+        State <input class="input" type="text" id="state" placeholder="Tamilnadu">
+        Country <input class="input" type="text" id="country" placeholder="Country">
+        <div class="submit">
+            <button id="entry" onclick="addRow()">Add</button>
+        </div>
+    </div>
+
+    <h2>Details Table</h2>
+    <table id="table"></table>
+
+</body>
+<script src="script.js"></script>
+
+</html>
